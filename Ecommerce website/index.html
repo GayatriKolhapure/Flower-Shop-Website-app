@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+    <!-- main -->
+    <section id="main">
+        <!-- btn -->
+         <input type="checkbox" class="menu-btn" id="menu-btn"/>
+
+        <!-- header -->
+        <header>
+            <!-- btn -->
+             <input type="checkbox" class="menu-btn" id="menu-btn" >
+
+
+            <!-- header top -->
+            <div class="header-top">
+                <label for="menu-btn" class="menu-icon">
+                        <span class="nav-icon"></span>
+                </label>
+                <!-- location -->
+                <div class="nav-location">
+                    <a href="#">
+                        <img src="https://cdn-icons-png.flaticon.com/128/535/535188.png" alt="" srcset=""/>
+                        Store Locate
+                    </a>
+                </div>
+                <!-- logo -->
+                <a href="#" class="logo">
+                    <img src="images/log2.png" alt="logo" />
+                </a>
+                <!-- nav-btns -->
+                <div class="nav-btns">
+                    <!-- search -->
+                    <a href="javascript:void(0);" class="nav-search">
+                        <img src="https://cdn-icons-png.flaticon.com/128/151/151773.png" alt="" srcset=""/>
+                    </a>
+                    <!-- user -->
+                    <a href="javascript:void(0);" class="nav-user">
+                        <img src="https://cdn-icons-png.flaticon.com/128/666/666201.png" alt=""/>
+                    </a>
+                    <!-- cart -->
+                    <a href="#" class="nav-cart">
+                        <img src="https://cdn-icons-png.flaticon.com/128/3144/3144456.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- navigation -->
+            <nav class="navigation">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#shopping-banner">Shop</a></li>
+                    <li>
+                        <a href="#popular">Popular</a>
+                        <span class="nav-label">Hot Offer</span>
+                    </li>
+                    <li><a href="#recent-products">Recent</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main-content">
+            <div class="main-content-text">
+                <strong>Collection</strong>
+                <h1>Rich <br /> Collection of Flowers</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, ad!</p>
+                <a href="#">Shop Now</a>
+            </div>
+            <div class="main-content-img">
+                <img src="images/mainmodel.png" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!-- search -->
+    <div class="search-bar">
+        <!-- search-input -->
+        <form class="search-input">
+            <input type="text" name="search" placeholder="Search for product" />
+            <!-- cancel-btn -->
+            <a href="javascript:void(0);" class="search-cancel">
+                <img src="https://cdn-icons-png.flaticon.com/128/1828/1828665.png" alt="" srcset="">
+            </a>
+        </form>
+    </div>
+
+    <!-- login-signup -->
+    <div class="form">
+        <!-- login -->
+        <div class="login-form">
+            <!-- close-btn -->
+            <a href="javascript:void(0);" class="form-cancel">
+                <img src="https://cdn-icons-png.flaticon.com/128/1828/1828778.png" alt="" srcset="">
+            </a>
+            <!-- heading -->
+            <strong>Log In</strong>
+            <!-- inputs -->
+            <form>
+                <input type="email" name="email" placeholder="example@gmail.com" required />
+                <input type="password" name="password" placeholder="Enter password" required />
+                <input type="submit" value="Log In" />
+            </form>
+            <!-- btns -->
+            <div class="form-btns">
+                <a href="#" class="forget">Forget Your Password?</a>
+                <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+            </div>
+        </div>
+        <!-- sign-up -->
+        <div class="sign-up-form">
+            <!-- close-btn -->
+            <a href="javascript:void(0);" class="form-cancel">
+                <img src="https://cdn-icons-png.flaticon.com/128/1828/1828778.png" alt="" srcset="">
+            </a>
+            <!-- heading -->
+            <strong>Sign Up</strong>
+            <!-- inputs -->
+            <form>
+                <input type="text" name="fullname" placeholder="Enter Full Name ">
+                <input type="email" name="email" placeholder="example@gmail.com" required />
+                <input type="password" name="password" placeholder="Enter password" required />
+                <input type="submit" value="Sign Up" />
+            </form>
+            <!-- btns -->
+            <div class="form-btns">
+                <a href="javascript:void(0);" class="already-account">Already Have An Account?</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- category-->
+    <section id="category">
+        <!-- box1 -->
+        <a href="#" class="category-box">
+            <!-- img -->
+            <div class="category-box-img">
+                <img src="images/c1.png" alt="Annual Flower">
+            </div>
+            <!-- text -->
+            <Strong>Annual Flower</Strong>
+        </a>
+        <!-- box2 -->
+        <a href="#" class="category-box">
+            <!-- img -->
+            <div class="category-box-img">
+                <img src="images/c2.png" alt="Perennial Flower">
+            </div>
+            <!-- text -->
+            <Strong>Perennial Flower</Strong>
+        </a>
+        <!-- box3 -->
+        <a href="#" class="category-box">
+            <!-- img -->
+            <div class="category-box-img">
+                <img src="images/c3.png" alt="Biennial Flower">
+            </div>
+            <!-- text -->
+            <Strong>Biennial Flower</Strong>
+        </a>
+        <!-- box4 -->
+        <a href="#" class="category-box">
+            <!-- img -->
+            <div class="category-box-img">
+                <img src="images/c4.png" alt="Rose Flower">
+            </div>
+            <!-- text -->
+            <Strong>Rose Flower</Strong>
+        </a>
+        <!-- box5 -->
+        <a href="#" class="category-box">
+            <!-- img -->
+            <div class="category-box-img">
+                <img src="images/c5.png" alt="sunflower">
+            </div>
+            <!-- text -->
+            <Strong>Sunflower</Strong>
+        </a>
+        <!-- box1 -->
+        <a href="#" class="category-box">
+            <!-- img -->
+            <div class="category-box-img">
+                <img src="images/c6.png" alt="Hydrangea">
+            </div>
+            <!-- text -->
+            <Strong>Hydrangea</Strong>
+        </a>
+    </section>
+
+    <!-- popular -->
+    <section id="popular">
+        <h2>Popular Flowers</h2>
+        <div class="popular-dress-container">
+            <div class="popular-product-container">
+
+                <!-- box 1 -->
+                <div class="product-box">
+                    <a href="#" class="product-box-img">
+                        <img src="images/p1.png" alt="product">
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Flower Pot</a>
+                        <span>20$ <del>40$</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                            Add To cart
+                        </a>
+                    </div>
+                </div>
+                <!-- box 2 -->
+                <div class="product-box">
+                    <a href="#" class="product-box-img">
+                        <img src="images/p2.png" alt="product">
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Flower Pot</a>
+                        <span>20$ <del>40$</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                            Add To cart
+                        </a>
+                    </div>
+                </div>
+
+                <!-- box 3-->
+                <div class="product-box">
+                    <a href="#" class="product-box-img">
+                        <img src="images/p3.png" alt="product">
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Flower Pot</a>
+                        <span>20$ <del>40$</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                            Add To cart
+                        </a>
+                    </div>
+                </div>
+
+                <!-- box 4 -->
+                <div class="product-box">
+                    <a href="#" class="product-box-img">
+                        <img src="images/p4.png" alt="product">
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Flower Pot</a>
+                        <span>20$ <del>40$</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                            Add To cart
+                        </a>
+                    </div>
+                </div>
+
+                <!-- box 5 -->
+                <div class="product-box">
+                    <a href="#" class="product-box-img">
+                        <img src="images/p5.png" alt="product">
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Flower Pot</a>
+                        <span>20$ <del>40$</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                            Add To cart
+                        </a>
+                    </div>
+                </div>
+
+                <!-- box 6 -->
+                <div class="product-box">
+                    <a href="#" class="product-box-img">
+                        <img src="images/p6.png" alt="product">
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Flower Pot</a>
+                        <span>20$ <del>40$</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                            Add To cart
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- banner -->
+            <div class="popular-banner">
+                <div class="popular-banner-text">
+                    <h3>Summer Flower Collection</h3>
+                    <a href="#">Shop Now</a>
+                    <div class="popular-banner-img">
+                        <img src="images/banner.webp" alt="Banner" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- shopping-banner -->
+    <section id="shopping-banner">
+        <div class="shopping-banner-container">
+            <!-- text -->
+            <div class="shopping-banner-text">
+                <strong>Collection</strong>
+                <h3>Beautiful Flower Pot</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptas.</p>
+                <a href="#">Shop Now</a>
+            </div>
+            <!-- img -->
+            <div class="shopping-banner-img">
+                <img src="images/shoes-bag.png" alt="banner">
+            </div>
+        </div>
+    </section>
+
+    <!-- recent-products -->
+    <section id="recent-products">
+        <h2>Recent Flowers</h2>
+        <!-- container -->
+        <div class="recent-product-container">
+            <!-- box 1 -->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img src="images/p7.png" alt="product">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Flower Pot</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                        Add To cart
+                    </a>
+                </div>
+            </div>
+            <!-- box 1 -->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img src="images/p8.png" alt="product">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Flower Pot</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                        Add To cart
+                    </a>
+                </div>
+            </div>
+            <!-- box 1 -->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img src="images/p9.png" alt="product">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Flower Pot</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                        Add To cart
+                    </a>
+                </div>
+            </div>
+            <!-- box 1 -->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img src="images/p10.png" alt="product">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Flower Pot</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                        Add To cart
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- partner logo -->
+    <section id="partner">
+        <img src="images/logo-1.png" alt="logo" />
+        <img src="images/logo-2.png" alt="logo" />
+        <img src="images/logo-3.png" alt="logo" />
+        <img src="images/logo-4.png" alt="logo" />
+    </section>
+
+    <!--Buy-Gifts-->
+    <section id="recent-products">
+        <h2>Plants Collection</h2>
+        <!-- container -->
+        <div class="recent-product-container">
+            <!-- box 1 -->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img src="images/pl3.webp" alt="product">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Flower Pot</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                        Add To cart
+                    </a>
+                </div>
+            </div>
+            <!-- box 1 -->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img src="images/pl4.webp" alt="product">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Flower Pot</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                        Add To cart
+                    </a>
+                </div>
+            </div>
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img src="images/pl1.webp" alt="product">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Flower Pot</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                        Add To cart
+                    </a>
+                </div>
+            </div>
+            <!-- box 1 -->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img src="images/pl2.webp" alt="product">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Flower Pot</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                        Add To cart
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recent-products">
+        <h2>Buy For Gifts</h2>
+        <!-- container -->
+        <div class="recent-product-container">
+            <!-- box 1 -->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img src="images/new1.webp" alt="product">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Flower Pot</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                        Add To cart
+                    </a>
+                </div>
+            </div>
+            <!-- box 1 -->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img src="images/new2.jpg" alt="product">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Flower Pot</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                        Add To cart
+                    </a>
+                </div>
+            </div>
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img src="images/new4.webp" alt="product">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Flower Pot</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                        Add To cart
+                    </a>
+                </div>
+            </div>
+            <!-- box 1 -->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img src="images/new6.jpg" alt="product">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Flower Pot</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9001/9001771.png" alt="">
+                        Add To cart
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section class="services">
+        <div class="service-box">
+            <img src="https://cdn-icons-png.flaticon.com/128/6831/6831000.png" alt="">
+            <span>Free Shipping</span>
+            <p>Free shipping for all orders</p>
+        </div>
+        <div class="service-box">
+            <img src="https://cdn-icons-png.flaticon.com/128/27/27130.png" alt="">
+            <span>Support 24/7</span>
+            <p>We support 24hrs a day</p>
+        </div>
+        <div class="service-box">
+            <img src="https://cdn-icons-png.flaticon.com/128/3031/3031712.png" alt="">
+            <span>100% Money Back</span>
+            <p>Free shipping for all orders</p>
+        </div>
+    </section>
+
+    <!-- footer -->
+     <footer>
+        <div class="footer-container">
+            <div class="footer-company-box">
+                <a href="#" class="footer-logo">
+                    <img src="images/log2.png" alt="logo">
+                </a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, sequi.</p>
+                <!-- social -->
+                <div class="footer-social">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2175/2175193.png" alt="">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1384/1384031.png" alt="">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2168/2168336.png" alt="">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1384/1384012.png" alt="">
+                </div>
+            </div>
+             <!-- link -->
+        <div class="footer-link-box">
+            <strong>Media Link</strong>
+           <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Recent</a></li>
+            </ul>
+        </div>
+         <div class="footer-link-box">
+            <strong>Social Link's</strong>
+            <ul>
+                <li><a href="#">Facebbok</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+        <!-- subscribe -->
+         <div class="footer-subscribe">
+            <strong>Subscribe Now</strong>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, quas!</p>
+            <form class="subscribe-box">
+                <input type="email" placeholder="example@gmail.com" name="subscribe" required>
+                <button>Subscribe</button>
+            </form>
+         </div>
+        </div>
+
+        <!-- bottom -->
+         <div class="footer-bottom">
+            <span>Made By Going-To Internet</span>
+            <span>Ⓒ Copyright 2023 Going-To Internet</span>
+         </div>
+       
+     </footer>
+
+
+
+
+
+
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
